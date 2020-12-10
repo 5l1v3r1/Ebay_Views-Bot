@@ -14,6 +14,7 @@ On the discord channel/server you add the bot to:
 
 # TO DO
 * Implement Threading to increase speed and efficiency.
+* Implement regular expressions to ensure URL is an actual URL
 * Make it more user friendly  
   * i.e user only has to call .view and then it will ask user questions like:  
     * What product do you want views for?
