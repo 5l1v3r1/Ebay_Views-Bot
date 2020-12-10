@@ -8,9 +8,9 @@ Simple Program that gives users views on their ebay products. This program is in
 * See Example Below
 
 # Example
-On the discord channel/server you add the bot to:  
-  .view [URL OF PRODUCT] [NUMBER OF VIEWS]
-  .view "https://ebay.com/earphones 100
+On the discord channel/server you add the bot to:   
+  * .view [URL OF PRODUCT] [NUMBER OF VIEWS]
+  * .view "https://ebay.com/earphones 100
 
 # TO DO
 * Implement Threading to increase speed and efficiency.
@@ -19,7 +19,9 @@ On the discord channel/server you add the bot to:
     * What product do you want views for?
     * How many views do you want?
 * Increase view limit per request.
-* Add Cool-Down (i.e same user can't request multiple times in a row AND can't request views for the same product multiple times in a row]
+* Add Cool-Down 
+  * Why: Prevents same user requesting multiple times in a row 
+  * Why: Prevents request of views for the same product multiple times in a row
 
 
 
