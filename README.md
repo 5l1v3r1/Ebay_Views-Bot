@@ -1,7 +1,7 @@
 ## Ebay_Views-Bot
 
 # Description
-Simple Program that gives users views on their ebay products. This program is integrated with discord. 
+Simple Program that gives users views on their ebay products.  
 
 # Current Features
 * Allows users to request up to 200 views on a product. 
