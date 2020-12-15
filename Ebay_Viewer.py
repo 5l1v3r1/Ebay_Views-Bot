@@ -18,7 +18,7 @@ def viewer(url, views: int):
             print("{} view has been completed".format(i))
 
 
-def threads_viewer(url, views: int):
+def threads_viewer(views: int):
     urls = []
     counter = pyip.inputInt("How many url's do you want to add: ")   # Library that enures correct input format. Could just use normal input function with an if clause to make sure input is an int.
 
