@@ -5,8 +5,6 @@ import random
 import threading
 import pyinputplus as pyip
 
-"""Threading is working so now I need to somehow allow dicord users to send me links for views they want"""
-
 
 def viewer(url, views: int):
     if views > 200:
@@ -22,7 +20,7 @@ def viewer(url, views: int):
 
 def threads_viewer(url, views: int):
     urls = []
-    counter = pyip.inputInt("How many url's do you want to add: ")   # Library that enures correct input format. Could just use normal input function which an if clause to make sure input is an int.
+    counter = pyip.inputInt("How many url's do you want to add: ")   # Library that enures correct input format. Could just use normal input function with an if clause to make sure input is an int.
 
     for i in range(counter):
         urls.append(input("Enter your {} url: ".format(i + 1)))
